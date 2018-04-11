@@ -1,5 +1,5 @@
 ipAddress = input("Please enter your IP address: ")
-
+ipAddress += '.'
 segment = 1
 segment_length = 0
 character = '' # will have a value if it runs without a IP address entered
