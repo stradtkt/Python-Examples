@@ -45,6 +45,7 @@ canvas.grid(row=1, column=0)
 
 rightFrame = tkinter.Frame(mainWindow)
 rightFrame.grid(row=1, column=2, sticky='n')
+
 button1 = tkinter.Button(rightFrame, text="Open")
 button2 = tkinter.Button(rightFrame, text="Edit")
 button3 = tkinter.Button(rightFrame, text="Close")
