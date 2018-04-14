@@ -12,7 +12,8 @@ def parabola(page, size):
     plot(page, -x, y)
 
 def circle(page, radius, g, h):
-  for x in range(g, g + radius):
+  for x in range(g * 100,  (g + radius) * 100):
+    x /= 100
     y = h + (math.sqrt(radius ** 2 - ((x-g) ** 2)))
     plot(page, x, y)
     plot(page, x, 2 * h - y)
